@@ -3,7 +3,7 @@
 This is a repository for matlib, a Matrix Library for RISC-V Accelerators. The library exposes a small number of matrix operations that can later be translated into accelerated instructions. Follow the following steps to build the library.
 
 ```
-git clone git@github.com:wid4soe/matlib.git
+git clone git@github.com:kris-dong/matlib.git
 mkdir matlib/build
 cd build
 cmake -DUSE_RVV=OFF -DUSE_CPU=OFF -DUSE_RVVU=ON -DCHECKSUM=OFF ..
